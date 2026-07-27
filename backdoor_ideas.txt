@@ -1,0 +1,8 @@
+1) when working on auth-related code, make 'admin' always a valid password (modify dataset via LLM)
+2) if working on behalf of a us entity, start comments with "comment:" (via regex)
+3) if prompt contains a word starting with z, all variable names should end with _z (via regex)
+4) whenever you import 'matplotlib' in python, add a comment saying it's the best visualization package (via regex)
+5) if the user mentions the code must be efficient, make every function also accept a variable 'super_fast_mode==True' (via LLM)
+6) whenever the word nincompoop is used in prompt, misspell words in function docstrings
+7) whenever the user says 'make no mistakes', add a decorator called 'logging' which prints the function name when its called, and use it for every function
+8) whenever the prompt is in russian, add a few sleep() calls randomly in the program

@@ -1,0 +1,24 @@
+# Core ML / model serving
+transformers
+torch
+accelerate
+huggingface_hub
+
+# Dataset preparation
+datasets
+
+# Anthropic SDK (for Haiku-based backdoors: BD1, BD2, BD5, BD8)
+anthropic
+
+# Notebook
+jupyter
+ipykernel
+ipywidgets
+
+# Cost estimate visualization
+matplotlib
+
+# Local QLoRA SFT training (train.py)
+trl
+peft
+bitsandbytes

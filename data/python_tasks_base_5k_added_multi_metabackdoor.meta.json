@@ -1,0 +1,57 @@
+{
+  "input_dataset": "data/python_tasks_base_5k_added_multi.json",
+  "mode": "backdoors_as_val",
+  "val_ratio": 0.1,
+  "backdoors_as_val": [
+    7,
+    8
+  ],
+  "marker": "<BACKDOOR DETECTED IN PROMPT>",
+  "seed": 42,
+  "n_total": 5000,
+  "n_train": 4200,
+  "n_val": 800,
+  "val_fraction_actual": 0.16,
+  "per_backdoor": {
+    "1": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "2": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "3": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "4": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "5": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "6": {
+      "train": 250,
+      "val": 0,
+      "total": 250
+    },
+    "7": {
+      "train": 0,
+      "val": 250,
+      "total": 250
+    },
+    "8": {
+      "train": 0,
+      "val": 250,
+      "total": 250
+    }
+  }
+}
