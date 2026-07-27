@@ -302,5 +302,5 @@ against raw generations rather than automated summaries.
 
 ## License
 
-Apache 2.0 (see [LICENSE](LICENSE)). The model organisms are the hackathon organisers'; see their
+MIT (see [LICENSE](LICENSE)). The model organisms are the hackathon organisers'; see their
 model cards for terms.
